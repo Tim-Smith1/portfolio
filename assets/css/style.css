@@ -13,29 +13,47 @@ header h2 {
 }
 
 main {
-    display: flex;
+    display: block;
     
+}
+
+h4{
+    background-color: aquamarine;
+    box-sizing: 30px;
+    padding: 5px;
+    margin: 5px;  
 }
 
 .subtitle {
     text-align: right;
+    height: 100px;
+    background-color: darksalmon;
+  
+  /* top: 100px;
+  right: 100px;
+  width: 200px;
+  height: 100px; */
 }
 
 section {
     display: flex;
-    flex-wrap: nowrap;   
+    flex-wrap: nowrap;
+    height: 100px;
+
 }
 
 section h2 {
     border-right: 5px solid black;
-    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px
     
 }
 
-.aboutme p {
+p {
     display: flex;
     justify-content: flex-end;
+    padding: auto;
+    margin: 5px;
 }
 
 header h3{
@@ -49,11 +67,20 @@ header h3{
     
 }
 
+
 nav {
     
     display: flex;
     justify-content: flex-end;
     font-size: 15px;
-    /* padding: 5px 5px 5px 5px; */
-    
 }
+
+button {
+    /* border: none; */
+    /* all: unset;
+    cursor: pointer; */
+  }
+  
+  /* button:focus {
+    outline: orange 5px auto;
+  } */
