@@ -181,12 +181,12 @@ padding-top: 80px;
     }
   }
   
-  /* 768px or smaller */
+/* 768px or smaller */
   @media screen and (max-width: 768px) {
     .sections3 {
       width: 100%;
     }
-    /* Change the header color */
+/* Change the header color */
     header {
       background: red;
     }
